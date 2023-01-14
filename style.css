@@ -225,3 +225,62 @@ nav ul a {
     text-align: center;
     color: #FFFFFF;
 }
+
+/* Some facts section */
+
+.some-facts {
+    margin-top: 130px;
+}
+
+.some-about h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+
+.some-about p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    width: 245px;
+    height: 245px;
+    border: 1px solid #FF900E;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.icon img {
+    margin-top: 50px;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+.icon h3 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #424242;
+    margin-bottom: 5px;
+}
+
+.icon p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
