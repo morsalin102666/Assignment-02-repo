@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+button {
+    height: 65px;
+    width: 180px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* Header section */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12%;
+    padding-top: 60px;
+}
+
+nav .nav-left a {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-decoration: none;
+    color: #131313;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    margin: 7px 20px;
+    color: #424242;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* New brand section */
+.new-brand {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.new-brand h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+    margin-bottom: 35px;
+}
+
+.new-brand p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 35px;
+}
+
+/* Nav group img */
+
+.nav-img {
+    text-align: center;
+    padding: 55px 0;
+}
+
+/* Allbam about section */
+
+.allbam-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.allbam-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    justify-content: center;
+}
+
+.allbam-img img {
+    height: 345px;
+    height: 345px;
+}
+
+.allbam-about h2 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+    margin-bottom: 25px;
+}
+
+.allbam-about .title-bold {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.allbam-about .title-color {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+}
+
+.allbam-about p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 35px;
+}
+
+/* Features section */
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-top: 135px;
+    position: relative;
+}
+
+.features-left {
+    margin-top: 80px;
+}
+
+.features-left h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.features-left>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.features-care {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin: 30px 0;
+    margin-right: 100px;
+}
+
+.features-care .card {
+    padding: 28px 40px;
+}
+
+.features-care h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.features-care p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.experience-button {
+    width: 300px;
+    height: 200px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 9px;
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 660px;
+}
+
+.experience-button h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.experience-button p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
