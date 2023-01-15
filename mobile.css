@@ -1,0 +1,33 @@
+@media (max-width: 580px) {
+
+    .container {
+        width: 75%;
+        margin: auto;
+    }
+
+    /* Header section */
+    header {
+        display: none;
+    }
+
+    /* Allbam about section */
+
+    .allbam-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .allbam-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 55px;
+    }
+
+    /* Features section */
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
