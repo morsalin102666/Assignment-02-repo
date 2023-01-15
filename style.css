@@ -323,7 +323,7 @@ hr {
     box-shadow: 0 0 7px;
     padding: 20px;
     border-radius: 9px;
-    background-color: antiquewhite;
+    background-color: rgb(229,222,215);
 }
 
 .email input {
