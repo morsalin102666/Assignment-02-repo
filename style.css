@@ -141,92 +141,92 @@ nav ul a {
 
 /* Features section */
 
-.features {
+.features_love {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    margin-top: 135px;
+    gap: 154px;
+    margin-top: 150px;
 }
 
-.features-left {
-    margin-top: 80px;
-}
-
-.features-left h2 {
+.features_title {
+    color: #131313;
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
-    color: #131313;
+    margin-bottom: 24px;
     border-left: 5px solid #FF900E;
-    padding-left: 20px;
-    margin-bottom: 25px;
+    padding-left: 21px;
 }
 
-.features-left>p {
+.features_des {
+    color: #727272;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #727272;
     margin-bottom: 30px;
 }
-.features-right{
-    position: relative;
-}
 
-.features-care {
+.features_option {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-    margin: 30px 0;
-    margin-right: 100px;
-    width: 90%;
+    margin-bottom: 20px;
+    padding: 30px 42px 30px 30px;
 }
 
-.features-care .card {
-    padding: 28px 40px;
-}
-
-.features-care h4 {
+.features_option h3 {
+    color: #131313;
+    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
-    color: #131313;
     margin-bottom: 10px;
 }
 
-.features-care p {
+.features_option p {
+    color: #727272;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #727272;
 }
 
-.experience-button {
-    width: 300px;
+.architect_part {
+    position: relative;
+}
+
+.architect_part img {
+    height: 950px;
+}
+
+.experience {
+    color: #fff;
+    background: #FF900E;
+    width: 342px;
     height: 200px;
-    background-color: #FF900E;
-    color: #FFFFFF;
-    border-radius: 9px;
+    padding: 45px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
     position: absolute;
-    margin-top: 900px;
-    margin-left: 660px;
+    top: 830px;
+    left: -100px;
 }
 
-.experience-button h1 {
+.experience h2 {
+    font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 54px;
     line-height: 70px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 50px;
 }
 
-.experience-button p {
+.experience p {
+    font-style: normal;
     font-weight: 500;
     font-size: 25px;
     line-height: 40px;
-    text-align: center;
-    color: #FFFFFF;
 }
 
 /* Some facts section */
@@ -296,17 +296,20 @@ nav ul a {
 }
 
 /* Optional section */
-.contact-us{
+.contact-us {
     margin-top: 170px;
 }
-.contact-us>h1{
+
+.contact-us>h1 {
     font-size: 45px;
     text-align: center;
     margin-bottom: 40px;
 }
-hr{
+
+hr {
     margin-bottom: 40px;
 }
+
 .text-area {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -420,6 +423,8 @@ hr{
     margin-bottom: 130px;
     filter: grayscale(100%);
 }
+
+/* Footer section */
 
 .footer {
     display: flex;
